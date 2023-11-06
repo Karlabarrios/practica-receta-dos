@@ -1,0 +1,18 @@
+/*Hoja de estilos css externa*/
+*{
+    font-family: Helvetica;
+}
+
+/*Headings*/
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: 400;
+}
