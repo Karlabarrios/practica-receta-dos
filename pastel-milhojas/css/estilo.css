@@ -2,17 +2,113 @@
 *{
     font-family: Helvetica;
 }
-
-/*Headings*/
-h1{
-    font-size: 45px;
+hr{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: inset;
+    border-width: 1px;
 }
 
+.contenedor-postres{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.img-postres{
+    margin-top: -200px;
+    width: 100px;
+    padding: 20px;
+    background-color: #fff;
+}
+/*Headings*/
+h1{
+    font-family: serif;
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    color: #fff;
+}
 h2{
     font-size: 25px;
 }
-
 h3{
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 18px;
+}
+
+/*Imagen*/
+.pastel-img{
+    padding: 20px;
+}
+
+/*Textos*/
+.parrafo-uno{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.caracteristicas{
+    padding: 8px 40px 8px 40px;
+}
+
+/*Contenedores*/
+.contenedor-uno{
+    border-style: solid;    
+    border-radius: 15px;
+    border-width: 1px;
+    margin-top: -4px;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contenedor-negro{
+    border-style: solid;    
+    border-radius: 15px;
+    border-width: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #000;
+}
+
+    /*Contenedor 2*/
+.contenedor-dos{
+    display: inline-block;
+    border-style: solid;    
+    border-radius: 15px;
+    border-width: 1px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-right: 12px;
+}
+.contenedor-dos-2{
+    display: inline-block;
+    border-style: solid;    
+    border-radius: 15px;
+    border-width: 1px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.contenedor-contenedor-dos{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contenedor-tres{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.pastel-contenedor{
+    text-align: center;
 }
