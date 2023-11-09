@@ -2,13 +2,18 @@
 *{
     font-family: Helvetica;
 }
+a{
+    text-decoration: none;
+}
+
+/*Línea con círculo*/
 hr{
     margin-top: 60px;
     margin-bottom: 60px;
     margin-left: 10%;
     margin-right: 10%;
-    border-style: inset;
     border-width: 1px;
+    color: #000000;
 }
 
 .contenedor-postres{
@@ -25,7 +30,7 @@ hr{
 /*Headings*/
 h1{
     font-family: serif;
-    font-size: 45px;
+    font-size: 50px;
     text-align: center;
     margin: 0;
     padding: 30px;
@@ -33,6 +38,8 @@ h1{
 }
 h2{
     font-size: 25px;
+    text-align: center;
+    color: #fff;
 }
 h3{
     font-size: 16px;
@@ -42,9 +49,17 @@ h3{
     padding: 18px;
 }
 
-/*Imagen*/
+/*Imágenes*/
 .pastel-img{
-    padding: 20px;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.pastel-contenedor{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /*Textos*/
@@ -58,6 +73,9 @@ h3{
 }
 .caracteristicas{
     padding: 8px 40px 8px 40px;
+}
+.instrucciones{
+    text-align: justify;
 }
 
 /*Contenedores*/
@@ -81,7 +99,6 @@ h3{
     background-color: #000;
 }
 
-    /*Contenedor 2*/
 .contenedor-dos{
     display: inline-block;
     border-style: solid;    
@@ -89,7 +106,9 @@ h3{
     border-width: 1px;
     margin-top: 0;
     margin-bottom: 15px;
-    margin-right: 12px;
+    margin-right: 13px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 .contenedor-dos-2{
     display: inline-block;
@@ -98,6 +117,8 @@ h3{
     border-width: 1px;
     margin-top: 0;
     margin-bottom: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 .contenedor-contenedor-dos{
     text-align: center;
@@ -108,7 +129,93 @@ h3{
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 0;
 }
-.pastel-contenedor{
+
+
+/*Contenedores para listas*/
+
+.contenedor-cuatro{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;    
+    border-radius: 15px;
+    border-width: 1px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.contenedor-cuatro-negro{
+    display: inline-block;
+    padding-left: 78px;
+    padding-right: 78px;
+    border-style: solid;    
+    border-radius: 15px;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: #000;
+}
+.caja-de-lista-uno{
+    display: inline-block;
     text-align: center;
+    margin-right: 15px;
+}
+.caja-de-lista-dos{
+    display: inline-block;
+    text-align: center;
+}
+.caja-de-cajas{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+ul{
+    list-style: none;
+}
+/*Fin de cosas de listas*/
+
+
+.contenedor-cinco-negro{
+    border-style: solid;    
+    border-radius: 15px;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #000;
+}
+.contenedor-cinco{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;    
+    border-radius: 15px;
+    border-width: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*Bottom*/
+.bottom{
+    background-color: #000;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 60px;
+}
+.redes p{
+    display: inline;
+    color: #fff;
+    margin-left: 10px;
+}
+.redes img {
+    width: 4%;
+    vertical-align: middle;
+}
+.redes{
+    text-align: center;
+}
+.insta-logo{
+    margin-left: 10%;
 }
